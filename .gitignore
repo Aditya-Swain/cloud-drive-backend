@@ -8,7 +8,7 @@ node_modules/
 dist/
 # For backend
 backend/credentials.json
-
+debug_token.py
 # Optional: ignore application.properties (or just remove secrets from it)
 task-manager/src/main/resources/application.properties
 
