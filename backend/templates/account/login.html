@@ -1,0 +1,17 @@
+{% load socialaccount %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <a href="{% provider_login_url 'google' %}" class="btn btn-outline-primary">
+        <img src="https://img.icons8.com/color/24/000000/google-logo.png" alt="Google Logo">
+        Login with Google
+    </a>
+</body>
+</html>
